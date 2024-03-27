@@ -1,13 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { Text, View } from 'react-native';
+import { Text } from 'react-native';
 
-import { styles } from "./styles";
+import { Container } from "./styles";
 
 export default function SignIn() {
     return (
-        <View style={styles.container}>
+        <Container>
           <Text>Open up SignIn to start working on your app!</Text>
           <StatusBar style="auto" />
-        </View>
+        </Container>
       );
 }

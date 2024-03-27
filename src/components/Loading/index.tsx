@@ -1,10 +1,10 @@
-import { ContainerSC, LoadIndicatorSC } from "./styles";
+import { Container, LoadIndicator } from "./styles";
 
 
-export function Loading(){
+export function LoadingComponent(){
     return(
-        <ContainerSC>
-            <LoadIndicatorSC/>
-        </ContainerSC>
+        <Container>
+            <LoadIndicator/>
+        </Container>
     )
 }
